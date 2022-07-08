@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#blog{
+    background-color: #353A34;
+    height: 100vh;
+    width: 100%;
+}
+#blog-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: white;
+    font-size: 150px;
+    filter: opacity(0.1);
+    margin-left: 3%;
+    position: absolute;
+}
+#image-artsy{
+    width: auto;
+    height: 600px;
+float: right;
+margin-right: 20%;
+margin-top: 5%;
+filter: brightness(0.7);
+}
+
+#text-container{    position: absolute;
+    top:100px;
+    width: 40%;
+    margin-left: 20%;color: white;}
+#text-header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    
+
+}
+#text-body{
+width: 69%;
+text-align: justify;
+}
+
+#blog-link{
+    text-decoration: none;
+    color: inherit;
+    padding:8px 15px;
+    background: #5a5f59;
+}
+
+
+/* blog cards */
+#blog-cards{
+    background-color: #353A34;
+    height: 100vh;
+    width: 100%;
+}
+.card-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-container{
+    width: fit-content;
+    height: 600px;
+border-radius: 0px;
+background: linear-gradient(145deg, #393e38, #30342f);
+box-shadow:  23px 23px 46px #1b1d1a,
+             -23px -23px 46px #50574e;
+}
+#card-img{
+    width: auto;
+    height: 250px;
+    
+}
+
