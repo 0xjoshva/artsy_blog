@@ -1,0 +1,73 @@
+#categories {
+    padding-top: 15%;
+  width: 100%;
+  height: 100vh;
+}
+
+.panel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 35px;
+  height: 500px;
+}
+.panel {
+  width: 250px;
+  height: 500px;
+  border-radius: 5px 5px;
+  backdrop-filter: brightness(80%);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+.panel:hover {
+  border-radius: 5px 5px;
+  filter: brightness(110%);
+}
+
+#info {
+  padding-top: 15%;
+  cursor: default;
+  color: black;
+  background-color: white;
+}
+#info h1 {
+  font-size: 26px;
+}
+#abstract {
+  background-image: url(assets/abstract-panel.jpg);
+  background-size: cover;
+}
+#abstract:hover{
+    width: 500px;
+    background-image: url(assets/abstract-7.jpg);
+}
+
+#painting {
+  background-image: url(assets/painting-panel.jpg);
+  background-size: cover;
+}
+#painting:hover{
+    width: 500px;
+    background-image: url(assets/painting-1.jpg);
+}
+
+#sculpture {
+  background-image: url(assets/sculpture-panel.jpg);
+  background-size: cover;
+  color: black;
+}
+#sculpture:hover{
+    width: 500px;
+    background-image: url(assets/sculpture-500.jpg);
+    filter: brightness(100%);
+}
+
+#wildlife {
+  background-image: url(assets/wildlife-panel.jpg);
+  background-size: cover;
+}
+#wildlife:hover{
+    width: 500px;
+    background-image: url(assets/owl-panel.jpg);
+}
