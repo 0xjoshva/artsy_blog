@@ -236,3 +236,6 @@ select:focus {
   -webkit-box-shadow: 10px 13px 81px -11px rgba(2, 106, 211, 0.57);
   -moz-box-shadow: 10px 13px 81px -11px rgba(2, 106, 211, 0.57);
 }
+#emailField-lbl{
+  width: 400px;
+}

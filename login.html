@@ -20,14 +20,35 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./register-style.css" />
+    <link rel="stylesheet" href="./login-style.css" />
     <title>Login</title>
 </head>
 <body>
     <section id="login">
-        <div class="panel">
-            <img src="assets/user-placeholder.png" alt="profile pic" class="rounded-circle" id="profile-pic">
-            <img src="assets/icy-lakes.jpg" alt="right-img" id="right-img">
+        <div class="main-panel">
+         <div id="login-panel">
+          <div id="login-margin">
+          <h1 id="login-header">Login</h1>
+          <p id="login-subheader" class="py-2">our vast collection awaits...</p>
+            <form action="" id="form-container">
+               <label for="emailField">
+              Email <br />
+              <input type="email" name="emailField" id="emailInput" />
+            </label>
+
+            <label for="passwordField">
+              Password <br />
+              <input type="password" name="passwordField" />
+            </label>
+            <button id="btn-login">Login</button>
+            <p id="create-txt">Don't have an account? <a href="register.html">Create one now</a></p>
+            </form>
+          </div>
+        </div>
+            <div class="parent">
+            <img src="assets/gold-frame.png" alt="right-img" id="art-frame" class="image1">
+            <img src="assets/pearlgirl-1.png" alt="" class="image2">
+          </div>
         </div>
     </section>
     
