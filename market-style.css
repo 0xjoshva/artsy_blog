@@ -149,7 +149,7 @@ table {
    border-radius: 4px 4px;
    transition:all 0.7s ease-in-out;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    margin: 0 auto;
    padding-top: 30px;
 }
@@ -163,8 +163,6 @@ table {
   width: 400px;
   filter: brightness(100%);
   transition: all 1s ease-in-out;
-  border-radius: 5px 0px 0px 5px;
-  border: 1px solid white;
 }
 
 
@@ -211,10 +209,8 @@ table {
 
 #text {
   padding-left: 3%;
-  margin-left: 10px;
   width: 400px;
   border: 1px solid white;
-  border-radius: 0px 5px 5px 0px;
 }
 
 #art-link{
